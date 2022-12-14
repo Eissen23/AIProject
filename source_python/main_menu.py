@@ -29,12 +29,12 @@ def draw_text(text, font, text_col, x, y):
     screen.blit(img, (x,y))
 
 #load button image
-play_image = pygame.image.load("image/play_button.png").convert_alpha()
-history_image = pygame.image.load("image/history_button.png").convert_alpha()
-exit_image = pygame.image.load("image/exit_button.png").convert_alpha()
-botplay_image = pygame.image.load("image/botplay_button.png").convert_alpha()
-humanplay_image = pygame.image.load("image/humanplay_button.png").convert_alpha()
-back_image = pygame.image.load("image/back_button.png").convert_alpha()
+play_image = pygame.image.load("source_python/image/play_button.png").convert_alpha()
+history_image = pygame.image.load("source_python/image/history_button.png").convert_alpha()
+exit_image = pygame.image.load("source_python/image/exit_button.png").convert_alpha()
+botplay_image = pygame.image.load("source_python/image/botplay_button.png").convert_alpha()
+humanplay_image = pygame.image.load("source_python/image/humanplay_button.png").convert_alpha()
+back_image = pygame.image.load("source_python/image/back_button.png").convert_alpha()
 
 #create button
 play_button = button.Button(304, 125, play_image, 0.5)
