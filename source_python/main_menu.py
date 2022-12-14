@@ -63,15 +63,15 @@ while run:
         if exit_button.draw_self(screen):
             run = False 
     
-    # if screen_state == "play_menu":
-    #     if botplay_button.draw_self(screen):
-    #         # cho phần chơi bot vào đây:
-    #         pass
-    #     if humanplay_button.draw_self(screen):
-    #         #cho phần chơi ai vào đây
-    #         pass
-    #     if back_button.draw_self(screen):
-    #         screen_state = "main_menu"
+    if screen_state == "play_menu":
+        if botplay_button.draw_self(screen):
+            # cho phần chơi bot vào đây:
+            pass
+        if humanplay_button.draw_self(screen):
+            #cho phần chơi ai vào đây
+            pass
+        if back_button.draw_self(screen):
+            screen_state = "main_menu"
 
     if screen_state == "play_history":
         #lịch sử đấu để ở đây
